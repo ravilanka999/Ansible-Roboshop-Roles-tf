@@ -1,6 +1,7 @@
-- name: Configuring "{{ component }}" component using roles
-  hosts: "{{ component }}"
+- name: "configure {{ component }}"
   become: yes
-  roles:
+  #hosts: "{{ component }}"
+  hosts: localhost
+  connection: local
+  roles: # this will automatically load a folder called roles in current working directory.
   - "{{ component }}"
-   

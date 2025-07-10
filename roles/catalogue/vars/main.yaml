@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.sindhu.agency
+MONGODB_HOST: "mongodb-{{ env }}.sindhu.agency"
