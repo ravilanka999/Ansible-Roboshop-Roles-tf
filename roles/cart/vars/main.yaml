@@ -1,2 +1,2 @@
-REDIS_HOST: redis.sindhu.agency
-CATALOGUE_HOST: catalogue.sindhu.agency
+REDIS_HOST: redis-{{ env }}.sindhu.agency
+CATALOGUE_HOST: catalogue.backend-{{ env }}.sindhu.agency

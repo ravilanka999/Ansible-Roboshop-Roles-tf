@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.sindhu.agency
-USER_HOST: user.sindhu.agency
-CART_HOST: cart.sindhu.agency
-SHIPPING_HOST: shipping.sindhu.agency
-PAYMENT_HOST: payment.sindhu.agency
+CATALOGUE_HOST: catalogue.backend-{{ env }}.sindhu.agency
+USER_HOST: user.backend-{{ env }}.sindhu.agency
+CART_HOST: cart.backend-{{ env }}.sindhu.agency
+SHIPPING_HOST: shipping.backend-{{ env }}.sindhu.agency
+PAYMENT_HOST: payment.backend-{{ env }}.sindhu.agency

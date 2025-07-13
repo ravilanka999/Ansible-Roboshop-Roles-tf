@@ -1,2 +1,2 @@
-REDIS_HOST: redis.sindhu.agency
-MONGODB_HOST: mongodb.sindhu.agency
+REDIS_HOST: redis-{{ env }}.sindhu.agency
+MONGODB_HOST: mongodb-{{ env }}.sindhu.agency
