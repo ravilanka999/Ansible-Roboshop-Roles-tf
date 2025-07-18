@@ -1,4 +1,3 @@
-    
 - name: install python3 packages
   ansible.builtin.dnf:
     name: "{{ item }}"
